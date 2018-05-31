@@ -18,5 +18,6 @@ public class NewClassInModulOneTest {
             n = n/10 + n%10;
         }
         System.out.println(n);
+        System.out.printf("print again %s %n", n);
     }
 }
