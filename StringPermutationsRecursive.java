@@ -18,7 +18,7 @@ public class StringPermutationsRecursive {
     static void permutations(char[] ch, int crntIndex) {
         if (crntIndex == ch.length - 1 && isCorrectBracket(ch)) {
             uniqueBrackets.add(String.valueOf(ch));
-           // System.out.println(String.valueOf(ch));
+          // System.out.println(String.valueOf(ch));
         }
         for (int i = crntIndex; i < ch.length; i++) {
             swapChars(ch , crntIndex , i );
